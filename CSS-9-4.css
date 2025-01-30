@@ -1,0 +1,1551 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0E0E0E;
+    color: #FFF;
+    position: relative;
+}
+
+
+.Entaier__cont {
+    display: flex;
+    flex-direction: column;
+    gap: 393px;
+    align-items: center;
+
+}
+
+.Gap__cont {
+    display: flex;
+    gap: 104px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.sticky__cont {
+    display: flex;
+    width: 100%;
+    background: #F2F2F2;
+    padding: 19px 0px;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Header__icon {
+    display: flex;
+    align-items: center;
+}
+
+.Nav_Div {
+    display: flex;
+    max-width: 1028px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.HeaderPhone__menu {
+    display: flex;
+    gap: 68px;
+    align-items: center;
+}
+
+
+
+
+
+.sticky__cont__div {
+    display: flex;
+    align-items: center;
+    max-width: 1028px;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.sticky__cont__div p {
+    color: #1C2752;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Icons__cont {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+.nav__text {
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+}
+
+.HeaderPhone__menu__phone {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.pinc__text {
+    color: #DD2590;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contact__text {
+    color: #7E7E7E;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*!!!!!!!! main !!!!!!!!*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 104px;
+    align-items: center;
+    position: relative;
+    width: 100%;
+
+}
+
+.firs__main__div {
+    display: flex;
+    background-image: url("image/main/background.svg");
+    background-size: cover;
+    width: 100%;
+    height: 825px;
+    padding: 56px 0px;
+    position: relative;
+    backdrop-filter: blur(0px);
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.backgr__divs__cont {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.Provide__cont {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+
+    align-self: stretch;
+}
+
+.Vector__cont {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.20);
+    padding: 8px 16px 7px 16px;
+    width: 439px;
+
+}
+
+.Vector__cont p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.huge__text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 619px;
+    height: 143px;
+}
+
+.bottom__cont button {
+    display: flex;
+    padding: 20px 33px 21px 33px;
+    justify-content: center;
+    align-items: center;
+    background: #DD2590;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.max__size_cont {
+    display: flex;
+    max-width: 1028px;
+    width: 100%;
+}
+
+.bottom__cont button:hover {
+    background: #e41739af;
+    box-shadow: red;
+}
+
+
+
+/*!!!!!!!!!! second main !!!!!!!!!!!*/
+
+
+
+.blinde___cont {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    max-width: 1028px;
+    width: 100%;
+}
+
+.Numb__blinde_text {
+    display: flex;
+    gap: 38px;
+    align-items: center;
+}
+
+.blinde__background {
+    display: flex;
+    max-width: 484px;
+    width: 100%;
+    height: 611px;
+    background-image: url("image/main/Girlicon.svg");
+    background-size: cover;
+
+}
+
+.blinde___contText {
+    display: flex;
+    gap: 38px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.firs_text {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.setting_iconText {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 8px 16px 7px 16px;
+    background: #FFC4E7;
+    width: 269px;
+}
+
+.setting_iconText p {
+    color: #DD2590;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Experiance__text {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.Number__cont {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 34px;
+    opacity: 0.9;
+    background: #FFC4E7;
+
+
+}
+
+.mission_text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.Years_cont {
+    width: 107px;
+    align-self: center;
+    display: flex;
+}
+
+.Years_cont p {
+    color: #DD2590;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Experiance__paragrap {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+
+}
+
+
+
+.Experiance__paragrap p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: stretch;
+}
+
+.Provide_par {
+    color: #DD2590;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+/*!!!!!!!!!! third main !!!!!!!!!!!*/
+
+.three__cont {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #DD2590;
+    flex-shrink: 0;
+    padding: 84px 0px;
+}
+
+
+.wite__cont {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    max-width: 1028px;
+    width: 100%;
+}
+
+.mens__headCont {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.Mens_text {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+}
+
+
+.Mens_text :nth-child(1) {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Mens_text :nth-child(2) {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 687px;
+
+
+}
+
+.bulding__cont {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bulding__cont_div {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    padding: 21px 31px;
+    border: 1px solid #FFF;
+}
+
+.bulding__cont_div:hover {
+    background: #FFF;
+    cursor: pointer;
+
+}
+
+.bulding__cont_div p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+
+
+.bulding__cont_div p:hover {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.bulding__cont_div a {
+    text-decoration: none;
+}
+
+.mans__cont {
+    display: flex;
+    max-width: 1028px;
+    width: 100%;
+    padding: 59px 66px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    background-color: #FFF;
+}
+
+.bachgrou__man__picture {
+    display: flex;
+    width: 445px;
+    height: 390px;
+    flex-shrink: 0;
+    background-image: url("image/main/manicomn.svg");
+    background-size: cover;
+}
+
+.mans__contTextes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+
+}
+
+.Commercial__text :nth-child(1) {
+    color: #000;
+    font-family: Mulish;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Commercial__text :nth-child(2) {
+    color: #7E7E7E;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+
+.Commercial__text span {
+    display: flex;
+    color: #7E7E7E;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mans__contTextes__div {
+    display: flex;
+    align-items: flex-start;
+    max-width: 391px;
+    width: 100%;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.Commercial__text {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    align-items: flex-start;
+}
+
+.red__more button {
+    display: flex;
+    padding: 20px 33px 21px 33px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #DD2590;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+/*!!!!!!!!!! four main !!!!!!!!!!!*/
+
+.four__cont {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1028px;
+    width: 100%;
+    justify-content: center;
+}
+
+.servise__cont {
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Welcome__cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.OurService__cont {
+    display: flex;
+    height: 45px;
+    padding: 8px 16px 7px 16px;
+    justify-content: center;
+    background: #FFC4E7;
+    gap: 9px;
+    align-items: center;
+    width: 170px;
+
+}
+
+.OurService__cont a,
+.OurService__cont p {
+    text-decoration: none;
+    color: #DD2590;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Pellentesque__Cont {
+    display: flex;
+    width: 687px;
+    align-items: center;
+}
+
+.Pellentesque__Cont p {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Service__textes {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+
+.servise__bottom {
+    display: flex;
+    gap: 25px;
+    align-self: stretch;
+    justify-content: center;
+}
+
+.servise__bottom__div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    padding: 47px 37px 47px 36px;
+    opacity: 0.9;
+    background: #FFE1F3;
+    flex: 1 0 0;
+}
+
+.servise__conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.Create__textp {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.Create__textp :nth-child(1) {
+    color: #DD2590;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.Create__textp :nth-child(2) {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Read__moreAncor {
+    text-decoration: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Read__moreAncor:hover {
+    color: #169612;
+}
+
+/*!!!!!!!!!! five main !!!!!!!!!!!*/
+
+.fife___cont {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+
+}
+
+.fife__cont__div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+
+}
+
+.Reasons__cont {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.welcome_conteine {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Few_reason_text {
+
+    color: #DD2590;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    align-self: stretch;
+    width: 545px;
+}
+
+
+
+.pulvinar_text {
+    color: #7E7E7E;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 545px;
+}
+
+
+.Innovative__cont {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.marck__cont {
+    display: flex;
+    gap: 13px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.marck__text :nth-child(1) {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.marck__text :nth-child(2) {
+    color: #7E7E7E;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.monalisa__cont {
+    display: flex;
+    width: 629px;
+    height: 706px;
+    flex-shrink: 0;
+    background-image: url("image/main/monalizaicon.svg");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.monalisa__div {
+    display: inline-flex;
+    height: 483px;
+    padding: 56px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-shrink: 0;
+    background: rgba(28, 39, 82, 0.30);
+    backdrop-filter: blur(12.5px);
+    height: 483px;
+}
+
+.number__cont {
+    display: flex;
+    align-items: flex-start;
+}
+
+.numb__div {
+    display: flex;
+    padding: 17px 18px;
+    background: #DD2590;
+    flex-shrink: 0;
+    width: 100px;
+    justify-content: center;
+}
+
+.numb__div p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Project__div {
+    display: flex;
+    padding: 17px 22px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    width: 260px;
+}
+
+.Project__div {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/*!!!!!!!!!! six main !!!!!!!!!!!*/
+
+.six__cont {
+    display: flex;
+    gap: 64px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1028px;
+}
+
+.six__text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.six__text :nth-child(1) {
+    color: #DD2590;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+    align-self: stretch;
+
+}
+
+.six__text :nth-child(2) {
+    color: #7E7E7E;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+.backgr__six__cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+    background-image: url(image/main/FirstGir.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 322px;
+    height: 480px;
+    padding: 20px;
+}
+
+.girl__textcont {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(10px);
+}
+
+.star_cont {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.star__contienr {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.description__person {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-self: stretch;
+}
+
+.description__person :nth-child(1) {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.description__person :nth-child(2) {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.star__contienr p {
+    align-self: stretch;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+
+.six__cont__div {
+    display: flex;
+    gap: 32px;
+    
+}
+
+
+
+
+
+.backgr__six__conte {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+   
+    background-image: url(image/main/Girlssec.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 322px;
+    height: 480px;
+    padding: 20px;
+}
+
+.backgr__six__conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+    background-image: url(image/main/boy.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 322px;
+    height: 480px;
+    padding: 20px;
+}
+
+#reali__text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+/*!!!!!!!!!! footer !!!!!!!!!!!*/
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+    max-width: 1028px;
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.first__fotercont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.right__foterCont {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.phoneicon_text {
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.phoneicon_text :nth-child(1) {
+    color: #DD2590;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.phoneicon_text :nth-child(2) {
+    color: #7E7E7E;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__div__cont {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.last__cont {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    align-self: stretch;
+}
+
+.footer__lastCont {
+
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid red;
+    width: 100%;
+    padding: 40px 0px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.Denouncing___cont {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+.pleasure__text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144.523%;
+    align-items: stretch;
+    width: 440px;
+}
+
+.soc__icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.Footer__ancorsCont {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.ancors__div a {
+    text-decoration: none;
+}
+
+.ancors__div p {
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175.023%;
+}
+
+
+.middle__Cont {
+    width: 1px;
+    height: 191.5px;
+    border: 1px solid #4B557D;
+
+}
+
+.Explore__text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.space__betwenne {
+    display: flex;
+    gap: 35px;
+    align-items: stretch;
+}
+
+
+/*!!!! Table version !!!!!!!! */
+
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+
+    .Nav_Div {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .Nav_Div {
+        align-content: center;
+        align-items: flex-start;
+    }
+
+    .Icons__cont {
+        display: none;
+    }
+
+    .Openinc__cont {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    main {
+        gap: 32px;
+        padding: 0px 32px;
+    }
+
+    .first__fotercont {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+    .Denouncing___cont{
+        width: 640px;
+    }
+    .pleasure__text{
+        width:100%;
+    }
+
+    .footer__lastCont {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        gap: 32px;
+        border: none;
+    }
+    .space__betwenne {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .middle__Cont{
+        display: none;
+    }
+
+    .firs__main__div{
+        display: flex;
+        width:100%;
+        background-image: url("image/main/Mobilephoto.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .max__size_cont {
+   
+        padding: 0px 43px;
+    }
+    .blinde__background{
+        background-image: url("image/main/TableGirl.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 727px;
+    }
+
+    .Experiance__text{
+        flex-wrap: wrap;
+    }
+    .Number__cont{
+        width:100%;
+    }
+
+    .backgr__six__cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        background-image: url(image/main/FirstGir.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 638px;
+        padding: 20px;
+        width:704px
+    }
+
+
+    .backgr__six__conteiner {
+        display: flex
+    ;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+       
+        background-image: url("image/main/table/Boy.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 686px;
+        padding: 20px;
+    }
+    .six__cont__div{
+        display: flex;
+        flex-direction: column;
+        gap:32px;
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .backgr__six__conte{
+        width:100%;
+        height: 686px;
+    } 
+
+    .monalisa__cont {
+     
+        width: 100%;
+    }
+
+    .bulding__cont_div {
+      
+        width: 100%;
+        justify-content: center;
+    }
+
+    .bulding__cont{
+        flex-wrap: wrap;
+    } 
+
+
+    footer {
+        padding: 0px 64px 32px 64px;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+        nav{
+            padding: 0px 16px;
+        }
+        .Icons__cont{
+            display: none;
+        }
+
+        .sticky__cont__div{
+            justify-content: center;
+        }
+
+        .HeaderPhone__menu{
+            flex-wrap: wrap;
+            gap:24px;
+        }
+
+        .Nav_Div{
+            gap:16px;
+        } 
+
+        main{
+            padding: 0px 16px;
+        }
+
+        .firs__main__div{
+
+            background-image: url("image/main/Mobile/image.png");
+
+            height: 825px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            align-items: flex-start;
+        }
+        .huge__text{
+            color: #FFF;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            align-self: stretch;
+            height: 24px;
+            width: 288px;
+        }
+
+        .Vector__cont{
+            width:100%;
+        }
+        .blinde___cont{
+            flex-wrap: wrap;
+        }
+        .setting_iconText{
+            width: 100%;
+        }
+
+        .Number__cont{
+            width:100%;
+        }
+
+        .Experiance__text{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .Provide_par{
+            font-size: 24px;
+        }
+
+        .we__provide{
+            display: flex;
+            width:100%;
+            justify-content: center;
+        }
+
+        .six__cont__div{
+            flex-direction: column;
+        }
+        .bulding__cont{
+            flex-direction: column;
+        }
+        .Mens_text :nth-child(1){
+            
+            color: #FFF;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            align-self: stretch;
+        }
+        .Mens_text :nth-child(2){
+            width:288px;
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px; 
+            align-self: stretch;
+        }
+
+        .bachgrou__man__picture{
+            width: 288px;
+        }
+
+        .Service__textes{
+            font-size: 24px;;
+        }
+        .Pellentesque__Cont p {
+            font-size:14px;
+        }
+        .Pellentesque__Cont{
+            max-width: 288px;
+            width:100%;
+        }
+
+        .servise__bottom {
+            display: flex;
+            gap: 25px;
+            flex-direction: column;
+            align-self: stretch;
+            justify-content: center;
+        }
+
+        .servise__bottom__div {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: flex-start;
+            padding: 47px 37px 47px 36px;
+            opacity: 0.9;
+            background: #FFE1F3;
+            flex: 1.;
+            height: 349px;
+        }
+
+        .Few_reason_text{
+            font-size: 24px;
+            width: 100%;
+        }
+
+        .monalisa__cont {
+            width: 100%;
+            background-image: url("image/main/Mobile/image6.png");
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-size: cover;
+            
+        }
+        .monalisa__div {
+            padding: 16px;
+            height:340px;
+        }
+        .pulvinar_text{
+            width: 100%;
+        }
+
+        .Project__div{
+            font-size: 16px;
+        }
+        .number__cont{
+            align-items: center;
+        }
+        .right__foterCont {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .first__fotercont{
+            gap:24px;
+        }
+        .pleasure__text{
+            max-width: 288px;
+            width: 100%;
+        }
+
+        .space__betwenne{
+            flex-direction: column;
+            max-width: 360px;
+            width: 100%;
+        }
+
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+            max-width: 1028px;
+            width: 100%;
+            padding-bottom: 32px;
+            max-width: 360px;
+        }
+        .middle__Cont{
+            display: none;
+        }
+
+        .fife___cont{
+            max-width: 328px;
+            width: 100%;
+        }
+        .Project__div{
+            width: 180px;
+        }
+        .six__cont{
+            max-width: 320px;
+        }
+
+}
